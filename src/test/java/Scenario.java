@@ -16,6 +16,8 @@ public class Scenario {
 		driver.findElement(By.xpath("//i[@class='icon-search-line soul-icon NAV_ICON_FONT_SIZE']")).click();
 
 
+		system.out.println("scenario is completed");
+
 	}
 
 }
